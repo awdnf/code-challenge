@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   post 'signup', to: 'users#create'
 
   resources :ip_addresses
-  post "/ip_addresses/compute", to: "ip_addresses#compute"
+  post '/ip_addresses/compute', to: 'ip_addresses#compute'
 end

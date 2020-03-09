@@ -10,10 +10,5 @@ class IpAddressesController < ApplicationController
     json_response(ips, :ok)
   end
 
-  private
-
-  def allowed_params
-    params.permit(:ip_list)
-  end
 
 end
